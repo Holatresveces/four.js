@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: monospace;
+}
+
+.wrapper {
+  max-width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 2rem;
+  font-family: Helvetica, sans-serif;
+}
+
+.examples {
+  display: flex;
+}
+
+h2 {
+  padding-right: 2rem;
+}
+
+p {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
