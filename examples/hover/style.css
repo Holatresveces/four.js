@@ -98,7 +98,6 @@ body {
   width: 100%;
   max-width: 650px;
   padding-bottom: 200px;
-  cursor: pointer;
 }
 
 .row ~ .gallery-item:nth-child(odd) {
@@ -112,6 +111,7 @@ body {
 .gallery-item img {
   display: block;
   width: 100%;
+  cursor: pointer;
 }
 
 @media (max-width: 1420px) {
